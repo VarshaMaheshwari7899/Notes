@@ -1,0 +1,9 @@
+[project]
+name = "insta-downloader"
+version = "0.1.0"
+description = "Batch-download Instagram post images via SnapInsta and merge them into PDFs"
+requires-python = ">=3.10"
+dependencies = [
+    "playwright>=1.45",
+    "pillow>=10.0",
+]
